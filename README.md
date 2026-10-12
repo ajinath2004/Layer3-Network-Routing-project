@@ -1,8 +1,9 @@
 # Layer3-Network-Routing-project
 A Layer-3 Networking Project demonstrating Inter-LAN communication using cisco packet tracer and manual static routing
 
-
 <img width="1196" height="666" alt="Screenshot 2026-10-12 205037" src="https://github.com/user-attachments/assets/d0ddaf3e-42b9-48bf-95f8-251d2fbc0d98" />
+
+
 - In this network setup, we have used 2 routers, 2 switches, and 8 PCs in total. Each PC is assigned a unique IP address. The first local area network (LAN 1), which is connected through
 - Router0, belongs to the 192.168.1.0 network, and its default gateway is set to 192.168.1.1. Similarly, the second local area network (LAN 2), which is connected through Router1, belongs to
 - the 192.168.2.0 network, and its default gateway is configured as 192.168.2.1. This proper IP distribution ensures that devices within their respective subnets can communicate locally
@@ -10,6 +11,8 @@ A Layer-3 Networking Project demonstrating Inter-LAN communication using cisco p
 
 
 <img width="608" height="675" alt="ipsetup" src="https://github.com/user-attachments/assets/fff98230-fb11-4532-9faa-389e369948da" />
+
+
 - In this network setup, we have used 2 routers, 2 switches, and 8 PCs in total. Each PC is assigned a unique IP address. The first local area network (LAN 1), which is connected through
 - Router0, belongs to the 192.168.1.0 network, and its default gateway is set to 192.168.1.1. Similarly, the second local area network (LAN 2), which is connected through Router1, belongs to
 - the 192.168.2.0 network, and its default gateway is configured as 192.168.2.1. This proper IP distribution ensures that devices within their respective subnets can communicate locally
@@ -43,7 +46,9 @@ A Layer-3 Networking Project demonstrating Inter-LAN communication using cisco p
 
 - Router0 Configuration:
 - We configured Router0 so that any traffic destined for the 192.168.2.0/24 network is forwarded through the next-hop IP 192.168.3.2 (which is Router1's WAN interface
+- 
 <img width="682" height="656" alt="Screenshot 2026-10-09 155804 - Copy" src="https://github.com/user-attachments/assets/334b1141-3fda-4ba6-a612-84a49c5236a5" />
+
 - in router 0 cli
 - Router> enable
 - Router# configure terminal
@@ -51,7 +56,10 @@ A Layer-3 Networking Project demonstrating Inter-LAN communication using cisco p
 
 - Router1 Configuration:
 - Similarly, we configured Router1 for the return path, ensuring that any traffic meant for the 192.168.1.0/24 network is sent to Router0 via the next-hop IP 192.168.3.1
+- 
 <img width="682" height="656" alt="Screenshot 2026-10-09 155804" src="https://github.com/user-attachments/assets/9c0bfd3b-a5e4-4333-87ff-a6ab6fd7722a" />
+
+
 - Router> enable
 - Router# configure terminal
 - Router(config)# ip route 192.168.1.0 255.255.255.0 192.168.3.1
