@@ -4,21 +4,27 @@ A Layer-3 Networking Project demonstrating Inter-LAN communication using cisco p
 <img width="1196" height="666" alt="Screenshot 2026-10-12 205037" src="https://github.com/user-attachments/assets/d0ddaf3e-42b9-48bf-95f8-251d2fbc0d98" />
 
 
-- In this network setup, we have used 2 routers, 2 switches, and 8 PCs in total. Each PC is assigned a unique IP address. The first local area network (LAN 1), which is connected through
-- Router0, belongs to the 192.168.1.0 network, and its default gateway is set to 192.168.1.1. Similarly, the second local area network (LAN 2), which is connected through Router1, belongs to
-- the 192.168.2.0 network, and its default gateway is configured as 192.168.2.1. This proper IP distribution ensures that devices within their respective subnets can communicate locally
-- before routing traffic to the other network.
-
-
-<img width="608" height="675" alt="ipsetup" src="https://github.com/user-attachments/assets/fff98230-fb11-4532-9faa-389e369948da" />
 
 
 - In this network setup, we have used 2 routers, 2 switches, and 8 PCs in total. Each PC is assigned a unique IP address. The first local area network (LAN 1), which is connected through
 - Router0, belongs to the 192.168.1.0 network, and its default gateway is set to 192.168.1.1. Similarly, the second local area network (LAN 2), which is connected through Router1, belongs to
 - the 192.168.2.0 network, and its default gateway is configured as 192.168.2.1. This proper IP distribution ensures that devices within their respective subnets can communicate locally
 - before routing traffic to the other network.
+
+
+
+
+
+- In this network setup, we have used 2 routers, 2 switches, and 8 PCs in total. Each PC is assigned a unique IP address. The first local area network (LAN 1), which is connected through
+- Router0, belongs to the 192.168.1.0 network, and its default gateway is set to 192.168.1.1. Similarly, the second local area network (LAN 2), which is connected through Router1, belongs to
+- the 192.168.2.0 network, and its default gateway is configured as 192.168.2.1. This proper IP distribution ensures that devices within their respective subnets can communicate locally
+- before routing traffic to the other network.
+
+
+<img width="680" height="413" alt="Screenshot 2026-10-09 155844" src="https://github.com/user-attachments/assets/1c7586e1-1b52-4dcc-8968-26813d11f510" />
 
 <img width="684" height="402" alt="Screenshot 2026-10-09 155902 - Copy" src="https://github.com/user-attachments/assets/ae281c84-287d-4f28-9def-0de38b879bd8" />
+
 
 - In this setup, Router0 is connected to the switch of the 192.168.1.0 network via its Gig0/0 port, and its port IP is set to 192.168.1.1, which acts as the default gateway for Network 1.
 - Similarly, Router1 is connected to the switch of the 192.168.2.0 network through its Gig0/0 port, and its IP address is 192.168.2.1, which serves as the default gateway for Network 2.
