@@ -75,14 +75,14 @@ A Layer-3 Networking Project demonstrating Inter-LAN communication using cisco p
 
 <img width="693" height="678" alt="Screenshot 2026-10-12 204755" src="https://github.com/user-attachments/assets/f45802c0-ff94-4a62-b5cc-10a4caa001a1" />
 
-- Testing & Verification (Ping Result)
+# Testing & Verification (Ping Result)
 - To test the end-to-end connectivity between both networks, we used the ping command from the Command Prompt of a PC in Network 1 (for example, PC0 with IP 192.168.1.2) to reach a PC in   - Network 2 (like PC5 with IP 192.168.2.2).
 
 - 
-- Result & Explanation:
+# Result & Explanation:
 - After executing the ping command, we received successful replies (Reply from 192.168.2.2: bytes=32 time<1ms TTL=127) with 0% packet loss. This confirms that the static routing configured - on both routers is working perfectly, and devices from different subnets can successfully communicate across the routers.
 
-- Conclusion
+# Conclusion
 - In conclusion, this project successfully demonstrates how Layer 3 routing connects two isolated local area networks using routers and static routing configuration. It provides a secure, - controlled, and straightforward method for small-scale network communication without unnecessary overhead.
 
 
