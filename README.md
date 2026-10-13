@@ -32,7 +32,9 @@ A Layer-3 Networking Project demonstrating Inter-LAN communication using cisco p
 - a unique IP address within its respective subnet range to ensure proper communication.
 
 
+
 <img width="608" height="675" alt="ipsetup" src="https://github.com/user-attachments/assets/fb15da1d-b304-4665-87c7-01bd7a8343da" />
+
 
 
 - Interface PortIP Address / Subnet MaskDescription / RolePC0FastEthernet192.168.1.2 / 255.255.255.0End Device in Network 1PC2FastEthernet192.168.1.3 / 255.255.255.0End Device in Network
@@ -46,11 +48,11 @@ A Layer-3 Networking Project demonstrating Inter-LAN communication using cisco p
 
 
 # Router Configuration & Static Routing Setup
-# To enable communication between Network 1 (192.168.1.0/24) and Network 2 (192.168.2.0/24), we configured static routes on both routers via their Command Line Interface (CLI). Since 
-# routers do not automatically know about remote networks beyond their directly connected interfaces, static routing helps manually define the path for data packets
+- To enable communication between Network 1 (192.168.1.0/24) and Network 2 (192.168.2.0/24), we configured static routes on both routers via their Command Line Interface (CLI). Since 
+- routers do not automatically know about remote networks beyond their directly connected interfaces, static routing helps manually define the path for data packets
 
 
-- Router0 Configuration:
+# Router0 Configuration:
 - We configured Router0 so that any traffic destined for the 192.168.2.0/24 network is forwarded through the next-hop IP 192.168.3.2 (which is Router1's WAN interface
 - 
 <img width="682" height="656" alt="Screenshot 2026-10-09 155804 - Copy" src="https://github.com/user-attachments/assets/334b1141-3fda-4ba6-a612-84a49c5236a5" />
