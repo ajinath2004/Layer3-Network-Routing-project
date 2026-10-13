@@ -62,7 +62,7 @@ A Layer-3 Networking Project demonstrating Inter-LAN communication using cisco p
 - Router# configure terminal
 - Router(config)# ip route 192.168.2.0 255.255.255.0 192.168.3.2
 
-- Router1 Configuration:
+# Router1 Configuration:
 - Similarly, we configured Router1 for the return path, ensuring that any traffic meant for the 192.168.1.0/24 network is sent to Router0 via the next-hop IP 192.168.3.1
 - 
 <img width="682" height="656" alt="Screenshot 2026-10-09 155804" src="https://github.com/user-attachments/assets/9c0bfd3b-a5e4-4333-87ff-a6ab6fd7722a" />
